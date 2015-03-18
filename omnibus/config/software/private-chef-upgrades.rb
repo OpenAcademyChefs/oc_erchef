@@ -16,7 +16,7 @@
 
 name "private-chef-upgrades"
 
-source path: "#{project.files_path}/private-chef-upgrades"
+source path: "#{project.files_path}/upgrades"
 
 build do
   sync project_dir, "#{install_dir}/embedded/upgrades/"

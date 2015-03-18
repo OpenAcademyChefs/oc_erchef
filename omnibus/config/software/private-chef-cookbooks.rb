@@ -16,7 +16,7 @@
 
 name "private-chef-cookbooks"
 
-source path: "#{project.files_path}/#{name}"
+source path: "#{project.files_path}/cookbooks"
 
 dependency "berkshelf2"
 
